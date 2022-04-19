@@ -1,24 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-body,html {
-    width: 100%; 
-    height: 100vh;
-    overflow: scroll;
-    font-family: 'Varela Round';
-}
-
-body {
-    background-color: #6166C8;
-  background-image: linear-gradient(to bottom, #6166C8 , #2a4858);
-}
-
 #main-container {
     display: flex;
     flex-direction: column;

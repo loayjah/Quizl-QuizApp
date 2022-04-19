@@ -1,6 +1,6 @@
 import React from 'react'; 
 import './Homepage.css';
-import Image from "./assets/homepage-image.svg";
+import Image from "../assets/homepage-image.svg";
 
 function Hompage() { 
 
