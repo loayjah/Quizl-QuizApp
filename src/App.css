@@ -4,23 +4,57 @@
   margin: 0;
 }
 
-body,html {
-  width: 100%; 
+html {
   height: 100vh;
-  overflow: scroll;
-  font-family: 'Varela Round';
+
+background-image: linear-gradient(to bottom, #6166C8 , #2a4858);
+overflow: scroll;
+
+font-family: 'Varela Round';
 }
 
 body {
-  background-color: #6166C8;
-background-image: linear-gradient(to bottom, #6166C8 , #2a4858);
+  overflow: scroll;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #root {
-  height: 100%;
-  }
+}
 
 .App {
-  height: 100%;
   text-align: center;
+  height: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+  #root {
+    padding: 15px;
+  }
+  body {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #root {
+    margin: 0;
+  }
+  body {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 478px) {
+  body {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 299px) { 
+  #root {
+      padding: 0;
+  }
 }

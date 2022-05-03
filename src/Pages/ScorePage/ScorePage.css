@@ -1,0 +1,26 @@
+#buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-button {
+    margin: 10px;
+}
+
+#circularBar-container {
+    width: 27vw;
+    flex: 1;
+    display: flex;
+    margin: 28px;
+}
+
+@media only screen and (max-width: 478px) {
+    #buttons-container {
+        flex-direction: column;
+    }
+
+    #circularBar-container {
+        width: 60vw;
+    }
+}
